@@ -1,0 +1,4 @@
+import os
+os.system('ssh web@server bash < /home/themartianx/localScript.sh >> /home/themartianx/outputFile')
+# web@server's password: ****
+# output of localScript.sh in outputFile
