@@ -1,6 +1,7 @@
 import socketserver
 
-ip = "192.168.0.124"
+# ip = "192.168.0.124"
+ip = "0.0.0.0"
 port = 65432
 
 class MyTCPHandler(socketserver.StreamRequestHandler):

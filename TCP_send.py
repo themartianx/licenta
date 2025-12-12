@@ -1,8 +1,8 @@
 import socket, sys
 
-ip = "192.168.0.124"
+ip = "192.168.0.171"
 port = 65432
-message = "hello world"
+message = "requestSystemInfo"
 
 data = " ".join(sys.argv[1:])
 
