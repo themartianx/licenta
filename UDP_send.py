@@ -1,4 +1,5 @@
 import socket, sys, getInfo
+from time import sleep
 
 ip = "192.168.0.124"
 port = 31337
@@ -17,3 +18,4 @@ while True:
 
     print("Sent:    ", data)
     print("Received:", received)
+    sleep(0.1)
